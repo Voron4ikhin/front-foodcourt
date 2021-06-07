@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+.wall_post{
+  background-color:  rgba(196, 195, 133,0.5);
+  border-radius:6px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.52);
+  margin-bottom: 10px;
+}
+.wall_main{
+  color: #fff;
+  padding-top: 1000px ;
+}

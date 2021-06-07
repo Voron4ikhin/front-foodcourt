@@ -1,0 +1,31 @@
+.create-acc {
+  color: #BC8F8F;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 47px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.single-field {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #999;
+  padding: 5px 10px;
+  margin-bottom: 28px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.submit-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+  padding: 15px 20px;
+  display: block;
+  border: 1px solid transparent;
+  background-color: #BC8F8F;
+  width: 100%;
+  margin-top: 23px;
+}

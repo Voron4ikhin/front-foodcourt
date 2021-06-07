@@ -1,1 +1,18 @@
-<p>login works!</p>
+<form class="login-form" [formGroup] = "form" (ngSubmit)="submit()" >
+  <div class="login">
+    <input class="single-field" type="text" formControlName="username" placeholder="username">
+<!--    <span class="field_error" *ngIf="errorResp">-->
+<!--      {{errorResp}}-->
+<!--    </span>-->
+  </div>
+
+  <div class="registration">
+    <input class="single-field" type="password" formControlName="password" placeholder="pass">
+<!--    <span class="field_error" *ngIf="form.get('password')">-->
+<!--      Please enter password-->
+<!--    </span>-->
+  </div>
+
+  <button class="btn" type="submit" [disabled]="form.invalid">Войти</button>
+
+</form>

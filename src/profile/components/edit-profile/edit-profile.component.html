@@ -1,0 +1,18 @@
+<section class="edit_profile">
+  <h3 class="title">Редактирование</h3>
+  <form class="edit_profile_form" [formGroup]="form" (ngSubmit)="submit()">
+    <input type="text" formControlName="username" placeholder="username">
+    <input type="text" formControlName="first_name" placeholder="first_name">
+    <input type="text" formControlName="last_name" placeholder="last_name">
+    <input type="text" formControlName="middle_name" placeholder="middle_name">
+    <input type="text" formControlName="phone" placeholder="phone">
+    <input type="text" formControlName="bio" placeholder="bio">
+    <input type="date" formControlName="birthday" placeholder="birthday">
+<!--    <input type="select" formControlName="gender" placeholder="gender">-->
+    <select class="choose_gender" formControlName="gender" >
+      <option>male</option>
+      <option>female</option>
+    </select>
+    <button class="btn" type="submit">Обновить</button>
+  </form>
+</section>

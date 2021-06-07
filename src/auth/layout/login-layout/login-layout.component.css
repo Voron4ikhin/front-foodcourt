@@ -1,0 +1,39 @@
+
+.container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  grid-template-areas:
+    "header login"
+    "img registration";
+}
+
+.header-area {
+  display: grid;
+  grid-area: header;
+  align-items: center;
+  justify-items: center;
+}
+
+.login-area {
+  grid-area: login;
+  justify-items: stretch;
+}
+
+.img-area {
+  grid-area: img;
+}
+
+.registration-area {
+  grid-area: registration;
+}
+
+.name_FC {
+  color: #BC8F8F;
+  font-size: 30px;
+  font-weight: 800;
+
+}
